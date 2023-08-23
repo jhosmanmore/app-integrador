@@ -1,0 +1,61 @@
+<div class="ion-page" id="main">
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <div class="bar__header">
+        <ion-title class="bar__title">Información General</ion-title>
+        <ion-button fill="clear" size="small" class="bt__logout" routerLink="/login">
+          <ion-icon slot="icon-only" name="power"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card>
+      <div class="card__est">
+        <img src="/assets/images/user-avatar.png" alt="img autor">
+        <ion-card-content>
+          <div class="info__est">
+            <strong>Avilio Villamizar</strong>
+            <span>Docente</span>
+          </div>
+        </ion-card-content>
+      </div>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Grupos Asignados</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-grid>
+          <ion-row class="row1">
+            <ion-col size="3">ID</ion-col>
+            <ion-col>Grupo</ion-col>
+          </ion-row>
+          <ion-row class="row2">
+            <ion-col size="3">1</ion-col>
+            <ion-col size="6">Voleibol</ion-col>
+            <ion-col class="col__add">
+              <ion-button fill="clear" size="small" class="add__bt" id="present-alert">
+                <ion-icon class="add__icon" slot="icon-only" name="information-circle"></ion-icon>
+              </ion-button>
+              <ion-alert
+                trigger="present-alert"
+                header="Voleibol"
+                message="Cont"
+                [buttons]="alertButtons"
+              ></ion-alert>
+            </ion-col>
+          </ion-row>
+          <ion-row class="row2">
+            <ion-col size="3">2</ion-col>
+            <ion-col size="6">Atletismo</ion-col>
+            <ion-col class="col__add">
+              <ion-button fill="clear" size="small" class="add__bt" id="present-alert">
+                <ion-icon class="add__icon" slot="icon-only" name="information-circle"></ion-icon>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>

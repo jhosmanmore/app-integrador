@@ -1,0 +1,32 @@
+<div class="ion-page" id="main">
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <div class="bar__header">
+        <ion-title class="bar__title">Agregar Grupo</ion-title>
+        <ion-button fill="clear" size="small" class="bt__logout" routerLink="/login">
+          <ion-icon slot="icon-only" name="power"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Nuevo Grupo</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-input label="Nombre del Grupo" labelPlacement="floating" [counter]="true" maxlength="40"></ion-input>
+        <ion-input
+        label="Cupos Máximos"
+        [value]="inputModel"
+        (ionInput)="onInput($event)"
+        #ionInputEl
+        labelPlacement="floating" [counter]="true" maxlength="2"
+        ></ion-input>
+        <ion-input label="Docente" labelPlacement="floating" [counter]="true" maxlength="50"></ion-input>
+        <ion-input label="Lugar" labelPlacement="floating" [counter]="true" maxlength="40"></ion-input>
+        <ion-input label="Horario" labelPlacement="floating" [counter]="true" maxlength="20"></ion-input>
+        <ion-button class="addgroup__bt" fill="outline">crear grupo</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>

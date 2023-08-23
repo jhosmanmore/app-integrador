@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="bar__title">Estudiante UP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="main">
+  <ion-card>
+    <div class="escudo">
+      <img alt="escudo" src="/assets/images/escudo_62_anios.png"/>
+    </div>
+
+    <ion-card-content class="login__items">
+      <ion-item class="items__fields">
+        <ion-input class="custom" label="Email" type="email" placeholder="email@domain.com"></ion-input>
+      </ion-item>
+      <ion-item class="items__fields">
+        <ion-input class="custom" label="Password" type="password" value="password"></ion-input>
+      </ion-item>
+      <ion-button routerLink="/tabs/student-profile" fill="outline">Ingresar</ion-button>
+      <ion-button routerLink="/register" fill="outline">Registrarse</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title class="bar__title">Universidad de Pamplona</ion-title>
+  </ion-toolbar>
+</ion-footer>

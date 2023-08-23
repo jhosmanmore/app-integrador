@@ -1,0 +1,65 @@
+.bar__title {
+  text-align: center;
+  font-size: 0.8em;
+  margin-left: 10px;
+  padding-right: 0px;
+  padding-left: 40px;
+}
+
+.bar__header {
+  display: flex;
+  flex-direction: row;
+}
+
+.bt__logout {
+  margin-right: 10px;
+}
+
+ion-button {
+  --color: #fff;
+}
+
+ion-card-header {
+  background-color: #003366;
+  padding: 10px;
+}
+
+ion-card-title {
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+}
+
+ion-col {
+  border: solid 1px #fff;
+  text-align: center;
+  align-items: center;
+}
+
+.row1 {
+  background-color: #135d54;
+  border: solid 1px #fff;
+  color: #fff;
+  text-align: center;
+}
+
+.row2 {
+  border: solid 1px #fff;
+  color: #000000;
+  text-align: center;
+}
+
+ion-button.add__bt {
+  --color: #003366;
+  padding: 0px;
+  margin: 0px;
+}
+
+ion-icon.add__icon {
+  font-size: 20px;
+}
+
+.col__add {
+  padding: 0px;
+  margin: 0px;
+}

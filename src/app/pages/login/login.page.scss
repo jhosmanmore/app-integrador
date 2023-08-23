@@ -1,0 +1,35 @@
+.bar__title {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+img {
+  width: 40%;
+}
+
+.escudo {
+  display: flex;
+  justify-content: center;
+}
+
+.items__fields {
+  border-radius: 10px;
+  margin: 6px;
+  box-shadow: 2px 2px 30px rgba(13, 13, 14, 0.12);
+  width: 100%;
+}
+
+ion-input.custom {
+  --color: black;
+}
+
+.login__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ion-button {
+  --color: #003366;
+  width: 50%;
+}
