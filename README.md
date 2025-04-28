@@ -27,3 +27,7 @@ Este proyecto está bajo la licencia MIT, su desarrollo fue completamente para f
 
 # 👨‍💻 Autor
 Desarrollado por Jhosman Moreno.
+
+# 📌 Capturas de Pantalla
+![app-img-2](https://github.com/user-attachments/assets/8cb8b038-5aa3-409d-9467-5c199ab40199)
+![app-img-1](https://github.com/user-attachments/assets/0a05bf6a-1405-43ea-b6f5-72e746478536)
